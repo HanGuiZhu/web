@@ -20,3 +20,13 @@ transform:translate(-50%,-50%)
 $.ajaxPrefilter(function(options){
 
 })
+
+git status 查看文件状态
+
+git push -u origin login // 提交分支代码
+
+git checkout 分支名 切换分支
+
+git merge login 合并分支
+
+git push 提交代码
