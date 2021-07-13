@@ -1,6 +1,6 @@
 git 仓库命令
 
-git init 
+git init 初始化本地项目
 
 git add . 
 
@@ -30,3 +30,4 @@ git checkout 分支名 切换分支
 git merge login 合并分支
 
 git push 提交代码
+
