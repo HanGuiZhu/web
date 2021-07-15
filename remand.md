@@ -31,3 +31,15 @@ git merge login 合并分支
 
 git push 提交代码
 
+
+user-select:none 禁止用户选中
+
+
+javaScript权威指南 第7版 github地址 
+https://github.com/ten-ltw/JavaScript-The-Definitive-Guide-7th-zh 
+https://js.2019919.xyz/
+
+indexOf 
+判断是否存在某个字符或者数组
+str.indexof('search',fromIndex); // fromIndex 不是必填，从什么位置开始查找，找到返回对应的位置，如未找到则返回-1
+arr.indexof('search',fromIndex); 同字符串查找一样
