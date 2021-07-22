@@ -53,3 +53,11 @@ $('form')[0].reset();
 上传头像思路，新写一个file，把它隐藏，然后给按钮绑定点击事件，在按钮的点击事件中再调用file的点击事件,input file 有accept属性，允许上传文件的例行（ <input type="file" id="file" class="upload-img" accept="image/png,image/jpeg">）
 
 base64的图片比原文件大30%左右
+
+ajax新增的页面元素有点击事件需用代理的方式触发,$('body').on('submit','className',function(){
+  
+})
+
+
+删除数据后涉及到的分页调整，案例（当某一页只剩一条数据时，点击删除后，对应的列表应该返回上一页）
+判断当前页列表个数，如果个数为1则需把页码减1，当页码为1时不需要减1
